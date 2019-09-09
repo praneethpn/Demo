@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IAmInterviewed</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scrollRate.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/carouselCss.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/marquee.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- <div class="topBar">
+            <div class="contact">
+                <i class="fa fa-phone"></i> 080- 8888888888 <i class="fa fa-envelope"></i> info@iaminterviewed.com
+            </div>
+            <div class="socialMedia">
+                <a href=""><i class="fa fa-facebook facebook" ></i></a>
+                <a href=""><i class="fa fa-twitter twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin linkedin"></i></a>
+            </div>
+        </div> -->
+        <div class="logoBar">
+            <img src="img/IAmInterviewedLogo.png" class="logo">
+            <div class="logoBarRight">
+                <a class="waves-effect waves-light btn scheduleInterview">Schedule Interview</a>
+                <p class="topSignIn">
+                    <a href="#">Sign In</a>
+                </p>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-wrapper">
+                <ul>
+                    <li>
+                        <strong>
+                            <a href="#">How It Works</a>
+                        </strong>
+                    </li>
+                    <li>
+                        <a class="dropdown-button" href="#!" data-activates="dropdown1">Register
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Employers</a>
+                    </li>
+                    <li>
+                        <a href="#">View Rating</a>
+                    </li>
+                </ul>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li>
+                        <a href="#!">Candidate</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#!">Employer</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#!">Interviewer</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="mainBanner">
+            <div class="row">
+                <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#bs-carousel" data-slide-to="1"></li>
+                        <li data-target="#bs-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">´
+                        <div class="item slides active">
+                            <div class="slide-1"></div>
+                            <div class="hero">
+                                <hgroup>
+                                    <h1>We are creative</h1>
+                                    <h3>Get start your next awesome project</h3>
+                                </hgroup>
+                                <button class="btn btn-hero btn-lg" role="button">Register Now</button>
+                            </div>
+                        </div>
+                        <div class="item slides">
+                            <div class="slide-2"></div>
+                            <div class="hero">
+                                <hgroup>
+                                    <h1>We are smart</h1>
+                                    <h3>Get start your next awesome project</h3>
+                                </hgroup>
+                                <button class="btn btn-hero btn-lg" role="button">Register Now</button>
+                            </div>
+                        </div>
+                        <div class="item slides">
+                            <div class="slide-3"></div>
+                            <div class="hero">
+                                <hgroup>
+                                    <h1>We are amazing</h1>
+                                    <h3>Get start your next awesome project</h3>
+                                </hgroup>
+                                <button class="btn btn-hero btn-lg" role="button">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="simple-marquee-container">
+                    <div class="marquee-sibling">
+                        Interviewed Candidate with Rating
+                    </div>
+                    <div class="marquee">
+                        <ul class="marquee-content-items">
+                            <li>Candidate Name 1 [4.5]</li>
+                            <li>Candidate Name 2 [4.5]</li>
+                            <li>Candidate Name 3 [4.5]</li>
+                            <li>Candidate Name 4 [4.5]</li>
+                            <li>Candidate Name 5 [4.5]</li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="row candidateRatingRow">
+                    <div class="col-lg-2 col-md-4 col-sm-12 candidateRatingWrapper">
+                        <a href="#">
+                            <div class="candidateRatingBlock hvr-rectangle-out">
+                                <h1>Jahangir Alam </h1>
+                                <h2>
+                                    <span class="labelText">Skill :</span>
+                                    <span class="valueText">JavaJavaJavaJavaJavaJava</span>
+                                    <br clear="all">
+                                </h2>
+                                <h3>
+                                    <span class="labelText">Rating:</span>
+                                    <span class="valueText">
+                                        <b>3.5</b>/5</span>
+                                    <br clear="all">
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 candidateRatingWrapper">
+                        <a href="#">
+                            <div class="candidateRatingBlock hvr-rectangle-out">
+                                <h1>Jahangir Alam </h1>
+                                <h2>
+                                    <span class="labelText">Skill :</span>
+                                    <span class="valueText">JavaJavaJavaJavaJavaJava</span>
+                                    <br clear="all">
+                                </h2>
+                                <h3>
+                                    <span class="labelText">Rating:</span>
+                                    <span class="valueText">
+                                        <b>3.5</b>/5</span>
+                                    <br clear="all">
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 candidateRatingWrapper">
+                        <a href="#">
+                            <div class="candidateRatingBlock hvr-rectangle-out">
+                                <h1>Jahangir Alam </h1>
+                                <h2>
+                                    <span class="labelText">Skill :</span>
+                                    <span class="valueText">JavaJavaJavaJavaJavaJava</span>
+                                    <br clear="all">
+                                </h2>
+                                <h3>
+                                    <span class="labelText">Rating:</span>
+                                    <span class="valueText">
+                                        <b>3.5</b>/5</span>
+                                    <br clear="all">
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 candidateRatingWrapper">
+                        <a href="#">
+                            <div class="candidateRatingBlock hvr-rectangle-out">
+                                <h1>Jahangir Alam </h1>
+                                <h2>
+                                    <span class="labelText">Skill :</span>
+                                    <span class="valueText">JavaJavaJavaJavaJavaJava</span>
+                                    <br clear="all">
+                                </h2>
+                                <h3>
+                                    <span class="labelText">Rating:</span>
+                                    <span class="valueText">
+                                        <b>3.5</b>/5</span>
+                                    <br clear="all">
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 candidateRatingWrapper">
+                        <a href="#">
+                            <div class="candidateRatingBlock hvr-rectangle-out">
+                                <h1>Jahangir Alam </h1>
+                                <h2>
+                                    <span class="labelText">Skill :</span>
+                                    <span class="valueText">JavaJavaJavaJavaJavaJava</span>
+                                    <br clear="all">
+                                </h2>
+                                <h3>
+                                    <span class="labelText">Rating:</span>
+                                    <span class="valueText">
+                                        <b>3.5</b>/5</span>
+                                    <br clear="all">
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 candidateRatingWrapper">
+                        <a href="#">
+                            <div class="candidateRatingBlock">
+                                <i class="fa fa-angle-double-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+
+        <div class="overview">
+            <h1>Overview</h1>
+            <h2>For whom is IAmInterviewed</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                    <div class="overviewBlock">
+                        <img src="img/employer.png">
+                        <h3>Employer</h3>
+                        <p>IamInterviewed.com provides a unique database of job seekers rated for their proficiency and technical
+                            knowledge by qualified industry professionals. As an employer you can now redefine your hiring
+                            and selection process. You no longer need to depend on the high percentage of CVs on job portals
+                            with low reliability. It is a painful activity sieving through huge volumes of potential candidates
+                            and an email box full of job applications without a feel for the quality, maturity, technical
+                            capability of the candidate.</p>
+                        <p>
+                            <a href="#" class="linkMore">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="overviewBlock">
+                        <img src="img/interviewer.png">
+                        <h3>Interviewer</h3>
+                        <p>IamInterviewed.com provides a unique database of job seekers rated for their proficiency and technical
+                            knowledge by qualified industry professionals. As an employer you can now redefine your hiring
+                            and selection process. You no longer need to depend on the high percentage of CVs on job portals
+                            with low reliability. It is a painful activity sieving through huge volumes of potential candidates
+                            and an email box full of job applications without a feel for the quality, maturity, technical
+                            capability of the candidate.</p>
+                        <p>
+                            <a href="#" class="linkMore">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="overviewBlock">
+                        <img src="img/candidate.png">
+                        <h3>Candidate</h3>
+                        <p>IamInterviewed.com provides a unique database of job seekers rated for their proficiency and technical
+                            knowledge by qualified industry professionals. As an employer you can now redefine your hiring
+                            and selection process. You no longer need to depend on the high percentage of CVs on job portals
+                            with low reliability. It is a painful activity sieving through huge volumes of potential candidates
+                            and an email box full of job applications without a feel for the quality, maturity, technical
+                            capability of the candidate.</p>
+                        <p>
+                            <a href="#" class="linkMore">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="testimonial">
+            <img src="img/whatSaying.png">
+            <div class="testimonialBlock">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#quote-carousel" data-slide-to="1"></li>
+                                <li data-target="#quote-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner">
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed
+                                                diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada
+                                                magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id
+                                                elit non mi porta gravida at eget metus.&rdquo;</p>
+                                            <p class="testimonialClient">Vulputate M., Dolor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>&ldquo;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean
+                                                lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies
+                                                vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+                                                at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                                                vestibulum.&rdquo;
+                                            </p>
+                                            <p class="testimonialClient">Fringilla A., Vulputate Sit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>&ldquo;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque
+                                                nisl consectetur et. Maecenas faucibus mollis interdum. Cras mattis consectetur
+                                                purus sit amet fermentum.&rdquo;</p>
+                                            <p class="testimonialClient">Aenean A., Justo Cras</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="howItWorks">
+            <div class="container ">
+                <h1>How It Works</h1>
+                <div class="animatedParent">
+                    <div class="howItWorksBlock animated fadeInLeft">
+                        <div class="col-sm-12 col-md-4 col-lg-4 howItWorksBlock1">
+                            <img src="img/logoIAm1.png">
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-8 howItWorksBlock1_1">
+                            <h1>Register</h1>
+                            <p>Candidate Registers and Fill the profile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="animatedParent">
+                    <div class="howItWorksBlock animated fadeInRight">
+                        <div class="col-sm-12 col-md-4 col-lg-4 howItWorksBlock1">
+                            <img src="img/logoIAm1.png">
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-8 howItWorksBlock1_2">
+                            <h1>Schedule Interview</h1>
+                            <p>Candidate Registers and Fill the profile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="animatedParent">
+                    <div class="howItWorksBlock animated fadeInLeft">
+                        <div class="col-sm-12 col-md-4 col-lg-4 howItWorksBlock1">
+                            <img src="img/logoIAm1.png">
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-8 howItWorksBlock1_3">
+                            <h1>Get interviewed, RATED</h1>
+                            <p>Candidate Registers and Fill the profile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="animatedParent">
+                    <div class="howItWorksBlock animated fadeInRight">
+                        <div class="col-sm-12 col-md-4 col-lg-4 howItWorksBlock1">
+                            <img src="img/logoIAm1.png">
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-8 howItWorksBlock1_4">
+                            <h1>Get hired, faster</h1>
+                            <p>Candidate Registers and Fill the profile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="greenBlock">
+            <p>More than 1 million candidates has got hired through IAmInterviewed and more 5 thousand company trust us</p>
+        </div>
+        <div class="topJob ">
+            <h1>List of Top Jobs</h1>
+
+            <div class="animatedParent">
+                <div class="topJobBlock pull-left animated swing">
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <h2>Technical Architect
+                            <span>(Min Experience: 5 Years)</span>
+                        </h2>
+                        <h3>Java Developer</h3>
+                        <h4>Bangalore, India</h4>
+                        <div class="chip">Design Pattern</div>
+                        <div class="chip">Java</div>
+                        <div class="chip">Core Java</div>
+                        <div class="chip">Database</div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <a class="waves-effect waves-light btn pull-right">Apply</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="topJobBlock pull-right  animated swing">
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <h2>Technical Architect
+                            <span>(Min Experience: 5 Years)</span>
+                        </h2>
+                        <h3>Java Developer</h3>
+                        <h4>Bangalore, India</h4>
+                        <div class="chip">Design Pattern</div>
+                        <div class="chip">Java</div>
+                        <div class="chip">Core Java</div>
+                        <div class="chip">Database</div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <a class="waves-effect waves-light btn pull-right">Apply</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+           
+                <div class="topJobBlock pull-left animated swing">
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <h2>Technical Architect
+                            <span>(Min Experience: 5 Years)</span>
+                        </h2>
+                        <h3>Java Developer</h3>
+                        <h4>Bangalore, India</h4>
+                        <div class="chip">Design Pattern</div>
+                        <div class="chip">Java</div>
+                        <div class="chip">Core Java</div>
+                        <div class="chip">Database</div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <a class="waves-effect waves-light btn pull-right">Apply</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="topJobBlock pull-right animated swing">
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <h2>Technical Architect
+                            <span>(Min Experience: 5 Years)</span>
+                        </h2>
+                        <h3>Java Developer</h3>
+                        <h4>Bangalore, India</h4>
+                        <div class="chip">Design Pattern</div>
+                        <div class="chip">Java</div>
+                        <div class="chip">Core Java</div>
+                        <div class="chip">Database</div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <a class="waves-effect waves-light btn pull-right">Apply</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+           
+                <div class="topJobBlock pull-left animated swing">
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <h2>Technical Architect
+                            <span>(Min Experience: 5 Years)</span>
+                        </h2>
+                        <h3>Java Developer</h3>
+                        <h4>Bangalore, India</h4>
+                        <div class="chip">Design Pattern</div>
+                        <div class="chip">Java</div>
+                        <div class="chip">Core Java</div>
+                        <div class="chip">Database</div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <a class="waves-effect waves-light btn pull-right">Apply</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="topJobBlock pull-right animated swing">
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <h2>Technical Architect
+                            <span>(Min Experience: 5 Years)</span>
+                        </h2>
+                        <h3>Java Developer</h3>
+                        <h4>Bangalore, India</h4>
+                        <div class="chip">Design Pattern</div>
+                        <div class="chip">Java</div>
+                        <div class="chip">Core Java</div>
+                        <div class="chip">Database</div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <a class="waves-effect waves-light btn pull-right">Apply</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="numberBlock">
+            <div class="col-sm-12 col-md-4 col-lg-4 numberBlock1">
+                <img src="img/numberIcon1.png">
+                <h1 class="count">1200</h1>
+                <h2>Candidate got selected</h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 numberBlock1">
+                <img src="img/numberIcon2.png">
+                <h1 class="count">500</h1>
+                <h2>Interviewer listed</h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 numberBlock1">
+                <img src="img/numberIcon3.png">
+                <h1 class="count">1000</h1>
+                <h2>Company trusted us</h2>
+            </div>
+        </div>
+        <div class="clientele">
+            <h1>List of Clients</h1>
+            <ul id="flexiselDemo1">
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="clientTeleBlock view-first">
+                        <div class="mask">
+                            <h2>Menlo Technology</h2>
+                            <p>Some text about the client ... Some text about the client ... </p>
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="getHired">
+            <h1>So, to get hired through </h1>
+            <img src="img/logoIAm1.png">
+            <a class="waves-effect waves-light btn scheduleInterviewGetHired">Schedule Interview</a>
+        </div>
+        <footer>
+            <div style="min-height: 250px;" class="footer animatedParent" id="footer-sub">
+                <div class="container-fluid animated fadeInUp">
+                    <div class="col-md-3">
+                        <img src="img/IAmInterviewedLogo.png" class="logoFooter">
+                        <ul>
+                            <li>
+                                <a href="">Contact Us</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">About Us</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Careers</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Press</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Partner with Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5> HELP </h5>
+                        <ul>
+                            <li>
+                                <a href="">Registration</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">How it Works</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Membership</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Cancellation & Returns</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5> MISC </h5>
+                        <ul>
+                            <li>
+                                <a href="">Rating</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Registration</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Online Support</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Subscription</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5> MISC </h5>
+                        <ul>
+                            <li>
+                                <a href="">Rating</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Registration</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Online Support</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Subscription</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr style="margin-bottom:0px; margin-top:30px; padding:0px;">
+                    <div class="row" id="sub-two">
+                        <div class="col-md-4">
+                            <div class="vertical-line text-center">
+                                <span class="fa fa-star-o"></span>
+                                <h4>View Rating</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vertical-line text-center">
+                                <span class="fa fa-calendar-plus-o"></span>
+                                <h4>Schedule Interview</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div style="margin:8px;" class="text-center">
+                                <span class="fa fa-cubes"></span>
+                                <h4>How It Works</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="margin-bottom:30px; margin-top:0px; padding:0px;">
+                </div>
+            </div>
+            <div style="min-height: 50px;" id="footer-main">
+                <ul>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Partner with us</a>
+                    </li>
+                    <li>
+                        <a href="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="">Call for Demo</a>
+                    </li>
+                </ul>
+                <div id="social-menu">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img style="max-width:18px; margin-top: -7px;" src="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="max-width:18px; margin-top: -7px;" src="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="max-width:18px; margin-top: -7px;" src="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/jquery.scrollbox.js"></script>
+<script src="js/jquery.flexisel.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/css3-animate-it.js"></script>
+<script src="js/marquee.js"></script>
+<script>
+    $(function () {
+
+        $('.simple-marquee-container').SimpleMarquee();
+
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('#quote-carousel').carousel({
+            pause: true,
+            interval: 10000,
+        });
+
+        $('.count').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+        });
+
+        $(".typed-element").typed({
+            strings: ["We provide unique database of job seekers rated for proficiency", "The Interviews will be over in less than 24 - 48 Hours", "From posting to call the candidate for F2F interview on the same day"],
+            typeSpeed: 50
+        });
+
+        $('#ratingHighlight').scrollbox({
+            switchItems: 5,
+            distance: 22
+        });
+
+        $("#flexiselDemo1").flexisel({
+            visibleItems: 5,
+            itemsToScroll: 1,
+            autoPlay: {
+                enable: true,
+                interval: 2000,
+                pauseOnHover: true
+            },
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1,
+                    itemsToScroll: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2,
+                    itemsToScroll: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3,
+                    itemsToScroll: 3
+                }
+            }
+        });
+    });
+</script>
+
+</html>
